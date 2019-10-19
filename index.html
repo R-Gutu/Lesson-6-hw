@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SkillUP Homework 6"> 
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Gutu Roman"> 
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+        <div class="container">
+            <form action="/path/to/server" method="POST">
+                <label class="first" for="firstname"> Your name: </label>
+                <input type="text" id="firstname" name="firstname">
+                <br>
+                <label class="first" for="mail"> Your e-mail: </label>
+                <input type="text" id="mail" name="mail">
+                <br>
+                <br>
+                <div class="check">
+                        <label id="ask" for="about">What's this all about?</label>
+                    <div class="left">
+                        <input type="checkbox" name="about1" value="hello"> Say hello
+                        <br>
+                        <input type="checkbox" name="about2" value="Comapain"> Compain
+                        <br>
+                        <input type="checkbox" name="about3" value="joke"> Share a joke
+                        <br>
+                    </div>
+                        <br>
+                        <br>
+                        <label id="two" for="subject">Subject:</label>
+                        <select name="subject" id="subject">
+                            <option value="subject">Please select our subject</option>
+                            <optgroup label="Nature">
+                                <option value="Ft">Forest</option>
+                                <option value="Sea">Sea</option>
+                            </optgroup>
+                            <optgroup label="Literature">
+                                <option value="Dst">Dostoevskiy</option>
+                                <option value="Psk">Pushkin</option>
+                            </optgroup>
+                        </select>
+                        <br><br>
+                <label for="message"> Your message:</label>
+                <textarea name="message" id="message" cols="150" rows="20"></textarea>
+                </div>
+                <div class="button">
+                <input id="send" type="submit" value="SEND">
+                </div>
+                    
+                
+        
+    </body>
+</html>
