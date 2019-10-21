@@ -71,4 +71,5 @@ label {
 
 fieldset {
 	border: none;
+	display: inline-block;
 }
