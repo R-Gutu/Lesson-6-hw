@@ -1,0 +1,73 @@
+* {
+  font-weight: bold;
+  color: grey;
+}
+
+html,
+body {
+  height: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  border: 3px solid grey;
+  min-width: 400px;
+}
+
+label {
+  display: block;
+}
+
+#firstname,
+#mail {
+  display: block;
+  position: relative;
+  left: 5vh;
+  top: 3vh;
+  font-size: 3.5vh;
+  min-width: 40vh;
+}
+
+.first {
+  position: relative;
+  left: 5vh;
+  top: 3vh;
+  font-size: 3.5vh;
+}
+
+.check {
+  position: relative;
+  left: 5vh;
+  top: 3vh;
+  font-size: 2.5vh;
+}
+
+#ask, #two {
+  font-size: 3.5vh;
+}
+
+.button {
+  position: relative;
+  left: 5vh;
+  font-size: 2.5vh;
+}
+
+#send {
+  background-color: black;
+  color: white;
+  width: 8vh;
+  height: 4vh;
+}
+
+.left {
+  position: relative;
+  left: 2vh;
+}
+
+fieldset {
+  border: none;
+  display: inline-block;
+}
+/*# sourceMappingURL=index.css.map */

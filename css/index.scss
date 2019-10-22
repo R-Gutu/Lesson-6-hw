@@ -1,13 +1,15 @@
+$d:block;
+$size:3.5vh;
+$r:relative;
 * {
-	font-weight: bold;
+    font-weight: bold;
 	color: grey;
 }
-
 html,
 body {
-	height: 100%;
+    height: 100%;
+    display:$d;
 }
-
 .container {
 	width: 100%;
 	height: 100%;
@@ -16,43 +18,39 @@ body {
 }
 
 label {
-	display: block;
+	display:$d;
 }
 
 #firstname,
 #mail {
-	display: block;
-	position: relative;
+	display:$d;
+	position: $r;
 	left: 5vh;
 	top: 3vh;
-    font-size: 3.5vh;
+    font-size:$size;
     min-width:40vh;
 }
 
 .first {
-	position: relative;
+	position:$r;
 	left: 5vh;
 	top: 3vh;
-	font-size: 3.5vh;
+	font-size:$size;
 }
 
 .check {
-	position: relative;
+	position:$r;
 	left: 5vh;
 	top: 3vh;
 	font-size: 2.5vh;
 }
 
-#ask {
-	font-size: 3.5vh;
-}
-
-#two {
-	font-size: 3.5vh;
+#ask,#two{
+	font-size: $size;
 }
 
 .button {
-	position: relative;
+	position:$r;
 	left: 5vh;
 	font-size: 2.5vh;
 }
@@ -65,7 +63,7 @@ label {
 }
 
 .left {
-	position: relative;
+	position: $r;
 	left: 2vh;
 }
 
@@ -73,3 +71,4 @@ fieldset {
 	border: none;
 	display: inline-block;
 }
+
